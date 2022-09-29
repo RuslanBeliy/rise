@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#111111">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <script defer src="js/main.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <a class="header__logo logo">
+                        <img src="img/logo.svg" alt="Логотип">
+                    </a>
+                    <nav class="header__menu menu" data-menu>
+                        <ul class="menu__list">
+                            <li class="menu__item" data-menu-item>
+                                <a href="#home" class="menu__link" data-scroll>Home</a>
+                            </li>
+                            <li class="menu__item" data-menu-item>
+                                <a href="#about" class="menu__link" data-scroll>About</a>
+                            </li>
+                            <li class="menu__item" data-menu-item>
+                                <a href="#project" class="menu__link" data-scroll>Project</a>
+                            </li>
+                            <li class="menu__item" data-menu-item>
+                                <a href="#blog" class="menu__link" data-scroll>Blog</a>
+                            </li>
+                            <li class="menu__item" data-menu-item>
+                                <a href="#contacts" class="menu__link" data-scroll>Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__btns">
+                        <a href="#" class="header__btn btn">Sign in</a>
+                        <a href="#" class="btn">Sign up</a>
+                    </div>
+                    <button class="burger" data-burger>
+                        <span class="burger__line"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="menu-overlay"></div>
+        </header>
+
+        <main class="main">
+            <section class="hero" id="home" data-section>
+                <div class="hero__wrapper">
+                    <div class="hero__left">
+                        <h1 class="hero__title title-main">We’re a Creative
+                            Design Agency</h1>
+                        <div class="hero__txt">We are delivering top level digital services
+                            best experlenced team, just get stared </div>
+                        <div class="hero__btns">
+                            <a href="#" class="btn btn-arr">Get Started</a>
+                            <a class="hero__btn" data-fslightbox="2" href="https://www.youtube.com/watch?v=z2X2HaTvkl8">How it works</a>
+                        </div>
+                        <ul class="hero__list">
+                            <li class="hero__item">
+                                <div class="hero__number">20+</div>
+                                <div class="hero__descr">Years of Excellent</div>
+                            </li>
+                            <li class="hero__item">
+                                <div class="hero__number">90%</div>
+                                <div class="hero__descr">Happy Client</div>
+                            </li>
+                            <li class="hero__item">
+                                <div class="hero__number">80%</div>
+                                <div class="hero__descr">Project Succes</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hero__right">
+                        <div class="hero__img">
+                            <picture>
+                                <source srcset="img/hero/1.webp" type="image/webp">
+                                <img src="img/hero/1.jpg" alt="">
+                            </picture>
+                        </div>
+                        <div class="hero__stats">
+                            <img src="img/hero/stats.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <ul class="hero__brands brands">
+                        <li class="brands__item">
+                            <img src="img/brands/1.svg" alt="">
+                        </li>
+                        <li class="brands__item">
+                            <img src="img/brands/2.svg" alt="">
+                        </li>
+                        <li class="brands__item">
+                            <img src="img/brands/3.svg" alt="">
+                        </li>
+                        <li class="brands__item">
+                            <img src="img/brands/4.svg" alt="">
+                        </li>
+                        <li class="brands__item">
+                            <img src="img/brands/5.svg" alt="">
+                        </li>
+                        <li class="brands__item">
+                            <img src="img/brands/6.svg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="about padding-top" id="about" data-section>
+                <div class="container">
+                    <div class="about__wrapper">
+                        <div class="about__left">
+                            <picture>
+                                <source srcset="img/about/1.webp" type="image/webp">
+                                <img src="img/about/1.jpg" alt="">
+                            </picture>
+                        </div>
+                        <div class="about__right">
+                            <span class="about__label label">About us</span>
+                            <h2 class="about__title title">We are skilled in providing superior services</h2>
+                            <div class="about__txt">
+                                Customer satisfaction is such a key part of many successful businesses. Most companies have
+                            </div>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="choose padding-top">
+                <div class="container">
+                    <div class="choose__wrapper">
+                        <div class="choose__left">
+                            <span class="choose__label label">Why choose us</span>
+                            <h2 class="choose__title title">Expert advising clients
+                                On financial challenges</h2>
+                            <div class="choose__txt">
+                                Customer satisfaction is such a key part of many successful businesses. Most companies ,..
+                            </div>
+                            <ul class="choose__list">
+                                <li class="choose__item choose__item--ico1">
+                                    <h4 class="choose__list-title">Frist working process</h4>
+                                    <div class="choose__list-txt">
+                                        Customer satisfaction is such a key part of many successful businesses.
+                                    </div>
+                                </li>
+                                <li class="choose__item choose__item--ico2">
+                                    <h4 class="choose__list-title">Dedicated Team</h4>
+                                    <div class="choose__list-txt">
+                                        business model that refers to an agreement between the client and service provider,
+                                    </div>
+                                </li>
+                                <li class="choose__item choose__item--ico3">
+                                    <h4 class="choose__list-title">24/7 Hours Support</h4>
+                                    <div class="choose__list-txt">
+                                        Scaling your team to provide assistance around the clock might sound like a
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="choose__right">
+                            <picture>
+                                <source srcset="img/choose/1.webp" type="image/webp">
+                                <img src="img/choose/1.jpg" alt="">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="services padding-top" id="project" data-section>
+                <div class="container">
+                    <div class="services__wrapper">
+                        <span class="services__label label">our services</span>
+                        <h2 class="services__title title">What Creative Design We Offer</h2>
+                        <div class="services__txt">
+                            Business owners and managers lead by example. The values and work ethic displayed by a company's decision makers have a direct ...
+                        </div>
+                    </div>
+                    <ul class="services__list">
+                        <li class="services__item services-card">
+                            <img src="img/services/1.svg" alt="">
+                            <h3 class="services-card__title">Product
+                                Management</h3>
+                            <div class="services-card__txt">
+                                vacancy available 20
+                            </div>
+                        </li>
+                        <li class="services__item services-card">
+                            <img src="img/services/2.svg" alt="">
+                            <h3 class="services-card__title">Web & Mobile
+                                Development</h3>
+                            <div class="services-card__txt">
+                                vacancy available 20
+                            </div>
+                        </li>
+                        <li class="services__item services-card">
+                            <img src="img/services/3.svg" alt="">
+                            <h3 class="services-card__title">Brochures & Flyers</h3>
+                            <div class="services-card__txt">
+                                vacancy available 20
+                            </div>
+                        </li>
+                        <li class="services__item services-card">
+                            <img src="img/services/4.svg" alt="">
+                            <h3 class="services-card__title">Logo & name cards</h3>
+                            <div class="services-card__txt">
+                                vacancy available 20
+                            </div>
+                        </li>
+                        <li class="services__item services-card">
+                            <img src="img/services/5.svg" alt="">
+                            <h3 class="services-card__title">Marketing &
+                                Commuication</h3>
+                            <div class="services-card__txt">
+                                vacancy available 20
+                            </div>
+                        </li>
+                        <li class="services__item services-card">
+                            <img src="img/services/6.svg" alt="">
+                            <h3 class="services-card__title">Business
+                                Development</h3>
+                            <div class="services-card__txt">
+                                vacancy available 20
+                            </div>
+                        </li>
+                        <li class="services__item services-card">
+                            <img src="img/services/7.svg" alt="">
+                            <h3 class="services-card__title">Human
+                                Resources</h3>
+                            <div class="services-card__txt">
+                                vacancy available 20
+                            </div>
+                        </li>
+                        <li class="services__item services-card">
+                            <img src="img/services/8.svg" alt="">
+                            <h3 class="services-card__title">Infographics & Illustrations</h3>
+                            <div class="services-card__txt">
+                                vacancy available 20
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="pages padding-top" id="blog" data-section>
+                <div class="container">
+                    <div class="pages__row">
+                        <div class="pages__row-left">
+                            <span class="pages__label label">Ready To Use</span>
+                            <h2 class="pages__title title">Elegant And Impressive Inner Pages</h2>
+                        </div>
+                        <div class="pages__btns">
+                            <button class="pages__btn pages__btn--prev">
+                                <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_0_862)">
+                                        <path d="M21 41C9.9543 41 1 32.0457 1 21C1 9.9543 9.9543 1 21 1C32.0457 1 41 9.9543 41 21C41 32.0457 32.0457 41 21 41Z" stroke="#828282" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M21 29L13 21L21 13" stroke="#828282" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M29 21H13" stroke="#828282" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_0_862">
+                                            <rect width="42" height="42" fill="white" transform="matrix(-1 0 0 1 42 0)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </button>
+                            <button class="pages__btn pages__btn--next">
+                                <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_0_858)">
+                                        <path d="M21 41C32.0457 41 41 32.0457 41 21C41 9.9543 32.0457 1 21 1C9.9543 1 1 9.9543 1 21C1 32.0457 9.9543 41 21 41Z" stroke="#636770" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M21 29L29 21L21 13" stroke="#636770" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M13 21H29" stroke="#636770" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_0_858">
+                                            <rect width="42" height="42" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pages__wrapper">
+                    <div class="pages__slider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#" class="pages-slide">
+                                    <div class="pages-slide__img">
+                                        <picture>
+                                            <source srcset="img/pages/1.webp" type="image/webp">
+                                            <img src="img/pages/1.jpg" alt="">
+                                        </picture>
+                                    </div>
+                                    <div class="pages-slide__info">
+                                        <h3 class="pages-slide__title">Hotel Booking Website</h3>
+                                        <div class="pages-slide__txt">
+                                            Business owners and managers lead by example. The values and work ethic displayed by a
+                                        </div>
+                                        <span class="pages-slide__link">
+                                            <span>Read Case Study</span>
+                                            <svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 8.00003C0 7.77272 0.0903001 7.55471 0.251035 7.39398C0.41177 7.23324 0.629774 7.14294 0.857088 7.14294H21.0724L15.6779 1.75015C15.5169 1.58921 15.4265 1.37093 15.4265 1.14333C15.4265 0.915726 15.5169 0.697447 15.6779 0.536508C15.8388 0.37557 16.0571 0.285156 16.2847 0.285156C16.5123 0.285156 16.7306 0.37557 16.8915 0.536508L23.7482 7.39321C23.828 7.47283 23.8913 7.56741 23.9346 7.67154C23.9778 7.77567 24 7.88729 24 8.00003C24 8.11277 23.9778 8.2244 23.9346 8.32852C23.8913 8.43265 23.828 8.52723 23.7482 8.60685L16.8915 15.4636C16.7306 15.6245 16.5123 15.7149 16.2847 15.7149C16.0571 15.7149 15.8388 15.6245 15.6779 15.4636C15.5169 15.3026 15.4265 15.0843 15.4265 14.8567C15.4265 14.6291 15.5169 14.4109 15.6779 14.2499L21.0724 8.85712H0.857088C0.629774 8.85712 0.41177 8.76682 0.251035 8.60608C0.0903001 8.44535 0 8.22734 0 8.00003Z" fill="#24272E" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="pages-slide">
+                                    <div class="pages-slide__img">
+                                        <picture>
+                                            <source srcset="img/pages/2.webp" type="image/webp">
+                                            <img src="img/pages/2.jpg" alt="">
+                                        </picture>
+                                    </div>
+                                    <div class="pages-slide__info">
+                                        <h3 class="pages-slide__title">UI/UX App Design</h3>
+                                        <div class="pages-slide__txt">
+                                            Business owners and managers lead by example. The values and work ethic displayed by a
+                                        </div>
+                                        <span class="pages-slide__link">
+                                            <span>Read Case Study</span>
+                                            <svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 8.00003C0 7.77272 0.0903001 7.55471 0.251035 7.39398C0.41177 7.23324 0.629774 7.14294 0.857088 7.14294H21.0724L15.6779 1.75015C15.5169 1.58921 15.4265 1.37093 15.4265 1.14333C15.4265 0.915726 15.5169 0.697447 15.6779 0.536508C15.8388 0.37557 16.0571 0.285156 16.2847 0.285156C16.5123 0.285156 16.7306 0.37557 16.8915 0.536508L23.7482 7.39321C23.828 7.47283 23.8913 7.56741 23.9346 7.67154C23.9778 7.77567 24 7.88729 24 8.00003C24 8.11277 23.9778 8.2244 23.9346 8.32852C23.8913 8.43265 23.828 8.52723 23.7482 8.60685L16.8915 15.4636C16.7306 15.6245 16.5123 15.7149 16.2847 15.7149C16.0571 15.7149 15.8388 15.6245 15.6779 15.4636C15.5169 15.3026 15.4265 15.0843 15.4265 14.8567C15.4265 14.6291 15.5169 14.4109 15.6779 14.2499L21.0724 8.85712H0.857088C0.629774 8.85712 0.41177 8.76682 0.251035 8.60608C0.0903001 8.44535 0 8.22734 0 8.00003Z" fill="#24272E" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="pages-slide">
+                                    <div class="pages-slide__img">
+                                        <picture>
+                                            <source srcset="img/pages/3.webp" type="image/webp">
+                                            <img src="img/pages/3.jpg" alt="">
+                                        </picture>
+                                    </div>
+                                    <div class="pages-slide__info">
+                                        <h3 class="pages-slide__title">Ceramic E-commerce Landing Page</h3>
+                                        <div class="pages-slide__txt">
+                                            Business owners and managers lead by example. The values and work ethic displayed by a
+                                        </div>
+                                        <span class="pages-slide__link">
+                                            <span>Read Case Study</span>
+                                            <svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 8.00003C0 7.77272 0.0903001 7.55471 0.251035 7.39398C0.41177 7.23324 0.629774 7.14294 0.857088 7.14294H21.0724L15.6779 1.75015C15.5169 1.58921 15.4265 1.37093 15.4265 1.14333C15.4265 0.915726 15.5169 0.697447 15.6779 0.536508C15.8388 0.37557 16.0571 0.285156 16.2847 0.285156C16.5123 0.285156 16.7306 0.37557 16.8915 0.536508L23.7482 7.39321C23.828 7.47283 23.8913 7.56741 23.9346 7.67154C23.9778 7.77567 24 7.88729 24 8.00003C24 8.11277 23.9778 8.2244 23.9346 8.32852C23.8913 8.43265 23.828 8.52723 23.7482 8.60685L16.8915 15.4636C16.7306 15.6245 16.5123 15.7149 16.2847 15.7149C16.0571 15.7149 15.8388 15.6245 15.6779 15.4636C15.5169 15.3026 15.4265 15.0843 15.4265 14.8567C15.4265 14.6291 15.5169 14.4109 15.6779 14.2499L21.0724 8.85712H0.857088C0.629774 8.85712 0.41177 8.76682 0.251035 8.60608C0.0903001 8.44535 0 8.22734 0 8.00003Z" fill="#24272E" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="testimonial padding-top">
+                <div class="container">
+                    <div class="testimonial__wrapper">
+                        <span class="testimonial__label label">TESTIMONIAL</span>
+                        <h2 class="testimonial__title title">Client’s kind Words</h2>
+                        <div class="testimonial__txt">
+                            Business owners and managers lead by example. The values
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial__slider swiper">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial-slide">
+                                <div class="testimonial-slide__ava">
+                                    <picture>
+                                        <source srcset="img/testimonial/ava1.webp" type="image/webp">
+                                        <img src="img/testimonial/ava1.jpg" alt="">
+                                    </picture>
+                                </div>
+                                <div class="testimonial-slide__name">Brooklyn Simmons</div>
+                                <div class="testimonial-slide__descr">
+                                    Co-Founder & Chief Executive Officer
+                                </div>
+                                <div class="testimonial-slide__rating"></div>
+                                <blockquote class="testimonial-slide__quote">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-slide">
+                                <div class="testimonial-slide__ava">
+                                    <picture>
+                                        <source srcset="img/testimonial/ava2.webp" type="image/webp">
+                                        <img src="img/testimonial/ava2.jpg" alt="">
+                                    </picture>
+                                </div>
+                                <div class="testimonial-slide__name">Brooklyn Simmons</div>
+                                <div class="testimonial-slide__descr">
+                                    Co-Founder & Chief Executive Officer
+                                </div>
+                                <div class="testimonial-slide__rating"></div>
+                                <blockquote class="testimonial-slide__quote">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-slide">
+                                <div class="testimonial-slide__ava">
+                                    <picture>
+                                        <source srcset="img/testimonial/ava3.webp" type="image/webp">
+                                        <img src="img/testimonial/ava3.jpg" alt="">
+                                    </picture>
+                                </div>
+                                <div class="testimonial-slide__name">Brooklyn Simmons</div>
+                                <div class="testimonial-slide__descr">
+                                    Co-Founder & Chief Executive Officer
+                                </div>
+                                <div class="testimonial-slide__rating"></div>
+                                <blockquote class="testimonial-slide__quote">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contacts" id="contacts" data-section>
+                <div class="container">
+                    <div class="contacts__wrapper">
+                        <div class="contacts__left">
+                            <span class="contacts__label label">OUR CONTACTS</span>
+                            <h2 class="contacts__title title">Let’s Start Working Together. Get in Touch with Us!</h2>
+                            <div class="contacts__txt">
+                                Get in touch to discuss your employee wellbeing needs today. Please give us a call, drop us an email.
+                            </div>
+                            <div class="contacts__info">
+                                <address class="contacts__address contacts__item">41 Pilgrm Avenue, Chevy Chase, Md 20815</address>
+                                <a href="tel:+01234567890" class="contacts__tel contacts__item">+01234 567 890</a>
+                                <a href="mailto:info@agency.com" class="contacts__email contacts__item">info@agency.com</a>
+                            </div>
+                        </div>
+                        <form action="#" class="contacts__form">
+                            <div class="contacts__form-inner">
+                                <label class="contacts__form-label">
+                                    <input type="text" name="Имя" class="contacts__form-input" placeholder="Your Name">
+                                </label>
+                                <label class="contacts__form-label">
+                                    <input type="email" name="email" class="contacts__form-input" placeholder="Your Email">
+                                </label>
+                                <label class="contacts__form-label">
+                                    <input type="text" name="Website" class="contacts__form-input" placeholder="Website">
+                                </label>
+                                <label class="contacts__form-label">
+                                    <textarea name="project" class="contacts__form-input contacts__form-textarea" placeholder="Tell About Your Project"></textarea>
+                                </label>
+                            </div>
+                            <button class="contacts__form-btn btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__col footer__col--1">
+                        <a class="footer__logo logo">
+                            <img src="img/logo.svg" alt="Логотип">
+                        </a>
+                        <div class="footer__descr">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                            duis enim velit mollit.
+                        </div>
+                        <ul class="social">
+                            <li class="social__item">
+                                <a href="#" class="social__link" target="_blank">
+                                    <img src="img/icons/in.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link" target="_blank">
+                                    <img src="img/icons/fb.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link" target="_blank">
+                                    <img src="img/icons/tw.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <nav class="footer__col">
+                        <h3 class="footer__title">Useful Link</h3>
+                        <ul>
+                            <li class="footer__col-item"><a href="#">Home</a></li>
+                            <li class="footer__col-item"><a href="#">Company News</a></li>
+                            <li class="footer__col-item"><a href="#">About us</a></li>
+                            <li class="footer__col-item"><a href="#">Projects</a></li>
+                            <li class="footer__col-item"><a href="#">Careers</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="footer__col">
+                        <h3 class="footer__title">Services</h3>
+                        <ul>
+                            <li class="footer__col-item"><a href="#">Website Design</a></li>
+                            <li class="footer__col-item"><a href="#">Logo and Branding</a></li>
+                            <li class="footer__col-item"><a href="#">Mobile App</a></li>
+                            <li class="footer__col-item"><a href="#">Search Engine</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="footer__col">
+                        <h3 class="footer__title">Company</h3>
+                        <ul>
+                            <li class="footer__col-item"><a href="#">Carees</a></li>
+                            <li class="footer__col-item"><a href="#">Contact</a></li>
+                            <li class="footer__col-item"><a href="#">FAQ</a></li>
+                            <li class="footer__col-item"><a href="#">Partners</a></li>
+                        </ul>
+                    </nav>
+                    <div class="footer__col footer__col--5">
+                        <h3 class="footer__title">Company</h3>
+                        <div class="footer__info">
+                            <address class="footer__address footer__item">41 Pilgrm Avenue, Chevy Chase, Md 20815</address>
+                            <a href="tel:+01234567890" class="footer__tel footer__item">+01234 567 890</a>
+                            <a href="mailto:info@agency.com" class="footer__email footer__item">info@agency.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
